@@ -1,0 +1,40 @@
+/* #13 — Ultra-HD lab theme: white + deep violet + vivid magenta, spec-card layout */
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#faf9fc;color:#1e1b2e;line-height:1.7}
+.wrap{max-width:880px;margin:0 auto;padding:0 22px}
+.hero{background:#2a1650;color:#fff;padding:64px 0 52px;border-bottom:8px solid #e6007e}
+.kicker{font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#ff8ac2;margin-bottom:16px}
+.hero h1{font-size:40px;line-height:1.15;margin-bottom:20px}
+.hero .lead{font-size:18px;color:#ddd6f3;max-width:760px}
+.hero .lead a{color:#ff8ac2}
+.cta{display:inline-block;margin-top:26px;margin-right:12px;background:#e6007e;color:#fff;font-weight:700;text-decoration:none;padding:13px 24px;border-radius:6px}
+.cta.ghost{background:transparent;color:#fff;border:2px solid #fff}
+main{padding:44px 0 20px}
+section{margin-bottom:42px}
+h2{font-size:28px;line-height:1.25;color:#2a1650;margin-bottom:16px;padding-bottom:10px;border-bottom:3px solid #e6007e}
+h3{font-size:20px;margin:22px 0 8px;color:#2a1650}
+p{margin-bottom:14px;font-size:17px}
+a{color:#b3006b}
+a:hover{color:#e6007e}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:20px}
+.card{background:#fff;border:1px solid #e5e0f0;border-top:5px solid #e6007e;border-radius:8px;padding:20px;box-shadow:0 2px 8px rgba(42,22,80,.08)}
+.card p{font-size:15.5px}
+.num{display:inline-block;background:#2a1650;color:#fff;font-weight:700;width:30px;height:30px;line-height:30px;text-align:center;border-radius:50%;margin-bottom:10px}
+table{width:100%;border-collapse:collapse;margin:18px 0;font-size:15px}
+th{background:#2a1650;color:#ff8ac2;text-align:left;padding:11px 12px}
+td{padding:11px 12px;border-bottom:1px solid #ddd6f3;vertical-align:top}
+tr:nth-child(even) td{background:#fff}
+footer{background:#2a1650;color:#ddd6f3;padding:44px 0 30px;margin-top:20px}
+.footgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px}
+footer h3{color:#ff8ac2;font-size:15px;text-transform:uppercase;letter-spacing:1px}
+footer ul{list-style:none}
+footer li{margin-bottom:6px}
+footer a{color:#ddd6f3;text-decoration:none;font-size:14px}
+footer a:hover{color:#ff8ac2}
+.disclaimer{font-size:13px;color:#b8aee0;margin-top:30px;text-align:center}
+@media(max-width:700px){
+  .hero h1{font-size:30px}
+  .cards{grid-template-columns:1fr}
+  .footgrid{grid-template-columns:1fr}
+  table{font-size:13px}
+}
